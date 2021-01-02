@@ -5,13 +5,16 @@ import { Component } from '@angular/core'
   template: `
   <div>
     <h1>Upcoming Angular Events</h1>
-    <hr />
+    <hr/>
     <div class="well">
       <div>For Angular developers</div>
-    </div>  
+    </div>
     <event-thumbnail [event]="event1"></event-thumbnail>
   </div>
- `
+ `,
+ styles: [`
+   .well div { color: red; }
+ `]
 })
 export class EventsListComponent {
   event1 = {
