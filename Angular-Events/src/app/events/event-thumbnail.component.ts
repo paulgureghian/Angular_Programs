@@ -16,7 +16,7 @@ import { Component, Input } from '@angular/core'
  `,
  styles: [`
    .pad-left { margin-left: 10px; }
-   .well div { color: red; }
+   .well h2 { color: green; }
  `]
 })
 export class EventThumbnailComponent {
